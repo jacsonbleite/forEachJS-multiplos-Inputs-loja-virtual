@@ -1,0 +1,111 @@
+.header-bg {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    float: left;
+}
+
+header {
+    max-width: 1128px;
+    text-align: center;
+    padding: 1em 0;
+    margin: 0 auto;
+
+}
+
+main {
+    width: 100%;
+    float: left;
+    height: 100%;
+    margin-bottom: 55px;
+}
+
+section {
+    max-width: 1128px;
+    height: auto;
+    margin: 0 auto;
+}
+
+article {
+    display: row;
+}
+
+.card {
+    min-width: 238px;
+    width: 21.276595745%;
+    float: left;
+    margin: 2em 1.861702127%;
+    border: 0.1em solid #ddd
+}
+
+.card img {
+    float: left;
+    width: 90%;
+    padding: 5%;
+}
+
+.card h2 {
+    font-size: 1.34em;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.card p {
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    color: teal;
+}
+
+.card .buttons-end-input {
+    width: 100%;
+}
+
+.card button {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.increment {
+    background: #275e40;
+    border-radius: 5px;
+    border: 0.1em solid #33684b;
+}
+
+.decrement {
+    background: crimson;
+    opacity: 0.8;
+    border-radius: 5px;
+    border: 0.1em solid crimson;
+}
+
+.card input {
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    margin: 0 0.3em;
+    border-radius: 5px;
+    border: 0.1em solid #ddd;
+}
+
+.addCart {
+    width: 95% !important;
+    height: auto!important;
+    min-height:50px;
+    margin: 1em 2.5%;
+    float: left;
+    background:#275e40;
+    border: 0.1em solid #33684b;
+    border-radius: 5px;
+}
+.addCart span{
+    width: 100%;
+    float: left;
+}
+.addCart:disabled{
+    background-color: #ddd;
+    border: 0.1em solid #ddd;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de compras com Javascript</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="fadeIn">
+    <div class="header-bg">
+        <header>
+            <h1>Loja virtual de Exemplo</h1>
+            <h2>(69)98488-0075</h2>
+            <h3>jacsonbleite@gmail.com</h3>
+        </header>
+    </div>
+    <main>
+        <section>
+            <article>
+                <div class="card boder-radius-all-3">
+                    <img src="./assets/images/Acucar-Cristal-Itamarati-1kg.webp" alt="Acucar Cristal Itamarati 1kg">
+                    <h2>Acucar Cristal Itamarati 1kg</h2>
+                    <p>R$ 3,00</p>
+                    <div class="buttons-end-input align-divs" data-id="1" data-name="Acucar Cristal Itamarati 1kg"
+                        data-price="3.00">
+                        <button class="decrement">-</button>
+                        <input name="qty" type="number" value="0">
+                        <button class="increment">+</button>
+                        <button disabled="disabled" class="addCart">Comprar</button>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="card boder-radius-all-3">
+                    <img src="./assets/images/Amaciante-Concentrado-Alquimia-Encanto-Ype-Frasco-500ml.webp"
+                        alt="Amaciante Concentrado 500ml">
+                    <h2>Amaciante Concentrado 500ml</h2>
+                    <p>R$ 5,00</p>
+                    <div class="buttons-end-input align-divs" data-id="2" data-name="Amaciante Concentrado 500ml"
+                        data-price="5.00">
+                        <button class="decrement">-</button>
+                        <input name="qty" type="number" value="0">
+                        <button class="increment">+</button>
+                        <button disabled="disabled" class="addCart">Comprar</button>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="card boder-radius-all-3">
+                    <img src="./assets/images/brilhus.webp" alt="Esponja Brilhus">
+                    <h2>Esponja Brilhus</h2>
+                    <p>R$ 1,00</p>
+                    <div class="buttons-end-input align-divs" data-id="3" data-name="Esponja Brilhus" data-price="1.00">
+                        <button class="decrement">-</button>
+                        <input name="qty" type="number" value="0">
+                        <button class="increment">+</button>
+                        <button disabled="disabled" class="addCart">Comprar</button>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="card boder-radius-all-3">
+                    <img src="./assets/images/Farinha-de-Mandioca-Branca-COLIBRI--Pacote-1kg.webp" alt="Farinha de Mandioca 1kg">
+                    <h2>Farinha de Mandioca 1kg</h2>
+                    <p>R$ 6,00</p>
+                    <div class="buttons-end-input align-divs" data-id="4" data-name="Farinha de Mandioca 1kg"
+                        data-price="6.00">
+                        <button class="decrement">-</button>
+                        <input name="qty" type="number" value="0">
+                        <button class="increment">+</button>
+                        <button disabled="disabled" class="addCart">Comprar</button>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="card boder-radius-all-3">
+                    <img src="./assets/images/Feijao-Preto-Tipo-1-KICALDO--Pacote-1kg.webp" alt="Feijão Preto 1kg">
+                    <h2>Feijão Preto 1kg</h2>
+                    <p>R$ 5,90</p>
+                    <div class="buttons-end-input align-divs" data-id="5" data-name="Feijão Preto 1kg"
+                        data-price="5.90">
+                        <button class="decrement">-</button>
+                        <input name="qty" type="number" value="0">
+                        <button class="increment">+</button>
+                        <button disabled="disabled" class="addCart">Comprar</button>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="card boder-radius-all-3">
+                    <img src="./assets/images/Lava-Roupas-em-Po-Roupas-Brancas-e-Coloridas-Brilhante-Cuidado-Total-Pacote-400g.webp"
+                        alt="Lava Roupas 400g">
+                    <h2>Lava Roupas 400g</h2>
+                    <p>R$ 4,99</p>
+                    <div class="buttons-end-input align-divs" data-id="6" data-name="Lava Roupas 400g"
+                        data-price="4.99">
+                        <button class="decrement">-</button>
+                        <input name="qty" type="number" value="0">
+                        <button class="increment">+</button>
+                        <button disabled="disabled" class="addCart">Comprar</button>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="card boder-radius-all-3">
+                    <img src="./assets/images/Leite-em-Po-Integral-NINHO-FORTI--NESTLE-Sache-800g.webp" alt="Leite em Pó 800g">
+                    <h2>Leite em Pó 800g</h2>
+                    <p>R$ 8,00</p>
+                    <div class="buttons-end-input align-divs" data-id="7" data-name="Leite em Pó 800g"
+                        data-price="8.00">
+                        <button class="decrement">-</button>
+                        <input name="qty" type="number" value="0">
+                        <button class="increment">+</button>
+                        <button disabled="disabled" class="addCart">Comprar</button>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="card boder-radius-all-3">
+                    <img src="./assets/images/Requeijao-Cremoso-Tradicional-Vigor-Pote-500g.webp" alt="Requeijão 500g">
+                    <h2>Requeijão 500g</h2>
+                    <p>R$ 5,70</p>
+                    <div class="buttons-end-input align-divs" data-id="8" data-name="Requeijão 500g" data-price="5.70">
+                        <button class="decrement">-</button>
+                        <input name="qty" type="number" value="0">
+                        <button class="increment">+</button>
+                        <button disabled="disabled" class="addCart">Comprar</button>
+                    </div>
+
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
